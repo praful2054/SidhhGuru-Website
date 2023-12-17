@@ -80,7 +80,7 @@ ul {
 }
 
 .company-logo img {
-    width: 200px;
+    width: 130px;
 }
 
 .main-nav {
@@ -140,12 +140,13 @@ ul {
 }
 
 .header-section {
+
     justify-content: center;
     gap: 50px;
 }
 
 .header-right img {
-    width: 600px
+    width: 350px
 }
 
 .header-left {
@@ -218,7 +219,7 @@ ul {
 }
 
 .feature-img img {
-    width: 100%;
+    width: 50%;
 }
 
 .feature-desc {
@@ -231,7 +232,7 @@ ul {
     position: relative;
     min-height: 300px;
     background: black;
-    background: linear-gradient(rgb(0, 0, 0, 0.1), rgb(0, 0, 0, 0.8)), url(assets/asset\ 37.jpeg);
+    background: linear-gradient(rgb(0, 0, 0, 0.1), rgb(0, 0, 0, 0.8)), url(assets/asset\ 0.png);
     background-size: cover;
     transition: 0.2s ease-out;
 }
@@ -242,17 +243,18 @@ ul {
 }
 
 .example-card:nth-child(2) {
-    background: linear-gradient(rgb(0, 0, 0, 0.1), rgb(0, 0, 0, 0.8)), url(assets/asset\ 38.jpeg);
+    background: linear-gradient(rgb(0, 0, 0, 0.1), rgb(0, 0, 0, 0.8)), url(assets/puja.png);
     background-size: cover;
 }
 
 .example-card:nth-child(3) {
-    background: linear-gradient(rgb(0, 0, 0, 0.1), rgb(0, 0, 0, 0.8)), url(assets/asset\ 39.jpeg);
-    background-size: cover;
+    background: linear-gradient(rgb(0, 0, 0, 0.1), rgb(0, 0, 0, 0.8)), url(assets/tabiz1.jpg);
+    
+    background-size: contain;
 }
 
 .example-card:nth-child(4) {
-    background: linear-gradient(rgb(0, 0, 0, 0.1), rgb(0, 0, 0, 0.8)), url(assets/asset\ 36.jpeg);
+    background: linear-gradient(rgb(0, 0, 0, 0.1), rgb(0, 0, 0, 0.8)), url(assets/prasad.jpg);
     background-size: cover;
 }
 
