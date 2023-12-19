@@ -360,8 +360,6 @@ font-size:3rem;
     background-position:center ;
     box-shadow: 0 0 4px #fff;
 }
-
-
 @media screen and (max-width:1024px) {
     .gallery-container{
         flex-direction: column;
