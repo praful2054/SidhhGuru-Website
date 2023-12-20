@@ -77,3 +77,12 @@ width: 112px;
     border-radius: 4px;
     cursor: pointer;
 }
+
+@media screen and (max-width: 479px) {
+    .form-group input{
+        width: 90%;
+    } 
+    .form-group textarea {
+        width: 90%;
+}
+}
