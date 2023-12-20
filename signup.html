@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>User Regisgration</title>
+    <link rel="stylesheet" href="signup.css">
+</head>
+<body>
+   <div class="sign-up-img">
+        <img src="./assets/register.jpg" alt="Register">
+   </div>
+   <div class="main-container flex">
+   <div class="signup-container ">
+    <form class="signup-form flex" action="#" method="post"  onsubmit="redirectToSuccessPage(event)">
+        <h2>Create an Account</h2>
+        <div class="form-group">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+        </div>
+        <div class="form-group">
+            <label for="address">Address:</label>
+            <textarea id="address" name="address" rows="3" required></textarea>
+        </div>
+        <div class="form-group">
+            <label for="mobile">Mobile Number:</label>
+            <input type="tel" id="mobile" name="mobile" pattern="[0-9]{10}" placeholder="e.g., 1234567890" required>
+        </div>
+        <div class="form-group">
+            <button type="submit">Sign Up</button>
+        </div>
+    </form>
+</div>
+</div>
+<script>
+    function redirectToSuccessPage(event) {
+        // Prevent the default form submission
+        event.preventDefault();
+
+        // Redirect to the success page
+        window.location.href = "success.html";
+    }
+</script>
+</body>
+</html>
