@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SidhhGuru</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="media-query.css">
 </head>
 
 <body>
@@ -21,7 +22,7 @@
             <a href="#" class="company-logo">
                 <img src="./assets/sidhhguru.png" alt="company logo">
             </a>
-            <div class="nav-links">
+            <div class="nav-links" id ="nav-links">
                 <ul class="flex">
                     <li><a href="#" class="hover-link">Products</a></li>
                     <li><a href="#" class="hover-link">Services</a></li>
@@ -30,6 +31,9 @@
                     <li><a href="#" class="hover-link secondary-button">SignIn</a></li>
                     <li><a href="#" class="hover-link primary-button">SignUp</a></li>
                 </ul </div>
+            </div>
+            <div class="nav-toggle" id ="nav-toggle">
+                <i class="fa-sharp fa-solid fa-bars"></i>
             </div>
     </nav>
     <header>
@@ -123,7 +127,7 @@
         </div>
     </section>
     <section class="big-feature-section">
-        <div class="container flex big-feature-container" style="flex-direction:row-reverse;">
+        <div class="container flex big-feature-container" id="second-big-feature">
             <div class="feature-img">
                 <img src="./assets/praful.png">
             </div>
@@ -218,6 +222,13 @@
         </div>
     </div>
     <script src="https://kit.fontawesome.com/ae81d39ed9.js" crossorigin="anonymous"></script>
+    <script>
+        const navLinks = document.getElementById('nav-links');
+        const toggleButton = document.getElementById('nav-toggle');
+        toggleButton.addEventListener('click', () =>{
+            navLinks.classList.toggle('active');
+        })
+    </script>
 </body>
 
 </html>
