@@ -388,3 +388,7 @@ font-size:3rem;
 .nav-toggle{
     display: none;
 }
+
+.map-container{
+    justify-content: center;
+}
